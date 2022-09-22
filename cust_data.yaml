@@ -1,0 +1,6 @@
+path: "/home/vishvajit/Workspace/ultralytics/yolov5/dataset_try/"  # root path for the yolo folder 
+train: "/home/vishvajit/Workspace/ultralytics/yolov5/dataset_try/train/images_and_label" # path to train images 
+val: "/home/vishvajit/Workspace/ultralytics/yolov5/dataset_try/val/images_and_label"  # path to validation images 
+
+nc: 8 
+names: ['bicycle-group', 'pedestrian', 'person-group-far-away', 'scooter-group', 'rider', 'motorbike-group', 'rider+vehicle-group-far-away', 'buggy-group']

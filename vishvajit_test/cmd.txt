@@ -1,0 +1,10 @@
+python train.py --img 640 --batch 16 --epochs 3 --data cust_data.yaml --weights weights/yolov5s.pt
+
+python train.py --img 640 --batch 16 --epochs 3 --data cust_data.yaml --weights '' --cgf yolov5s.yaml
+
+
+jambuti@elwe1.rhrk.uni-kl.de
+
+
+
+# 
